@@ -1,0 +1,14 @@
+name: Hello Python Workflow
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v2
+      
+    - name: Run Python script
+      run: python python-hello-world.app/.github/workflows/hello.py
