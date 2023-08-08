@@ -13,7 +13,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v3
       with:
-        python-version: 3.12.0
+        python-version: 3.11.1
       
     - name: Run Python script
       run: python hello.py
