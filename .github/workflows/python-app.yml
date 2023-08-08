@@ -16,4 +16,4 @@ jobs:
         python-version: 3.11.1
       
     - name: Run Python script
-      run: python hello.py
+      run: python .github/workflows/hello.py
