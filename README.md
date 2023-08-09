@@ -66,3 +66,8 @@ jobs:
 
 5. Once the workflow completes, you should see the "Hello, World!" message in the logs.
 
+Output of build file will be something like below.
+
+![image](https://github.com/mfaraz669/python-hello-world.app/assets/43960417/02ea5796-e627-49dd-afa7-b40763a4807b)
+
+
